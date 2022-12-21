@@ -1,0 +1,681 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	background-color: #fff;
+}
+
+.container{
+	width: 100%;
+	max-width: 1280px;
+	margin: auto;
+	padding: 30px 0px;
+}
+
+.header{
+	width: 1280px;
+	margin-bottom: 90px;
+	display: flex;
+}
+
+.header_nav{
+	position: absolute;
+	width: 1168px;
+	height: 36px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo{
+	margin-top: 40px;
+	margin-left: 56px;
+	width: 36px;
+	height: 36px;
+}
+
+.div_navig{
+	position: relative;
+	display: flex;
+}
+
+.search{
+	margin-top: 48px;
+	position: absolute;
+	right: 220px;
+	width: 20px;
+	height: 20px;
+}
+
+.shopping_cart{
+	margin-top: 48px;
+	position: absolute;
+	right: 150px;
+	width: 20px;
+	height: 20px;
+}
+
+.sign_up{
+	margin-top: 48px;
+	position: absolute;
+	right: 50px;
+	white-space: nowrap;
+	width: 52px;
+	height: 20px;
+	color: #156963;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.sign_in{
+	margin-top: 40px;
+	position: absolute;
+	white-space: nowrap;
+	width: 111px;
+	height: 36px;
+	padding: 8px 20px;
+	background-color: #156963;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.photo1{
+	width: 608px;	
+}
+
+.cube{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 672px;
+	height: 582px;
+	background-color: white;
+}
+
+.container1_cube{
+	width: 523px;
+	padding: 180.6px 0px;
+	background-color: white;
+}
+
+.h1{
+	color: #156963;
+	font-size: 68px;
+}
+
+.lorem{
+	color: black;
+	font-size: 18px;
+}
+
+.container2_cube{
+	display: flex;
+	width: 672px;
+	height: 291px;
+}
+
+.kaktus_plant{
+	width: 336px;
+	height: 160px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.strelka1{
+	padding-right: 57px;
+	text-decoration: none;
+	font-size: 24px;
+	color: black;
+}
+
+.text1_kaktus_plant{
+	font-size: 32px;
+	color: #156963;
+}
+
+.rahasia_plant{
+	width: 336px;
+	height: 160px;
+	background-color: #156963;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.strelka2{
+	padding-right: 120px;
+	text-decoration: none;
+	font-size: 24px;
+	color: #F2F2F2;
+}
+
+.text_rahasia_plant{
+	font-size: 32px;
+	color: #F2F2F2;
+}
+
+.bot{
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	width: 1168px;
+	height: 155px;
+	background-color: #fff;
+	margin-bottom: 90px;
+}
+
+.card{
+	position: relative;
+	width: 268px;
+	height: 155px;
+	background-color: #fff;
+	border: solid;
+	border-color: #E0E0E0;
+	border-width: 1px;
+}
+
+.bibika{
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 16px;
+	top: 22px;
+}
+
+.fast_delivery{
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 80px;
+	top: 22px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	color: #156963;
+}
+
+.lorem2{
+	position: absolute;
+	left: 16px;
+	top: 86px;
+	color: #2C1500;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 16px;
+}
+
+.headphones{
+	width: 42.19px;
+	height: 48px;
+	position: absolute;
+	left: 18.91px;
+	right: 20px;
+	top: 22px;
+}
+
+.Great_Customer_Service{
+	white-space: nowrap;
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 80px;
+	top: 22px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	color: #156963;
+}
+
+.original_plants{
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 80px;
+	top: 22px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	color: #156963;
+}
+
+.dollar{
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 16px;
+	top: 22px;
+}
+
+.Affordable_Price{
+	position: absolute;
+	top: 22px;
+	left: 80px;
+	color: #156963;
+}
+
+.div_featured_plants{
+	position: relative;
+	margin: auto;
+	width: 1168px;
+	height: 31px;	
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+
+.hr{
+	margin: auto;
+	width: 1168px;
+	border: 1px solid #E0E0E0;
+	margin-bottom: 30px;
+}
+
+.featured_plants{
+	width: 162px;
+	height: 24px;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	padding-top: 4px;
+	color: black;
+}
+
+.select{
+	border-radius: 0px;
+	position: absolute;
+	top: 0px;
+	left: 1038px;
+	width: 130px;
+	height: 31px;
+	border: 1px solid #E0E0E0;
+	background-color: #fff;
+}
+
+.body{
+	justify-content: space-between;
+	display: flex;
+	position: relative;
+	width: 1168px;
+	height: 300px;
+	background-color: #fff;
+	margin: auto;
+	margin-bottom: 90px;
+}
+
+.card2{
+	width: 200px;
+	height: 250px;
+	background-color: #F3F4F6;
+	border-width: 1px;
+}
+
+.kaktys1{
+	width: 200px;
+	height: 250px;
+}
+
+.text_kaktus_plant{
+	position: absolute;
+	top: 260px;
+	left: 45px;
+	width: 110px;
+	height: 20px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: black;
+}
+
+.IDR_85000{
+	position: absolute;
+	top: 280px;
+	left: 52px;
+	width: 91px;
+	height: 20px;
+	font-size: 16px;
+	line-height: 20px;
+	color: black;
+}
+
+.kaktys2{
+	width: 200px;
+	height: 250px;
+}
+
+.text_landak_plants{
+	position: absolute;
+	top: 260px;
+	left: 293px;
+	width: 110px;
+	height: 20px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: black;
+}
+
+.IDR_105000{
+	position: absolute;
+	top: 280px;
+	left: 297px;
+	width: 91px;
+	height: 20px;
+	font-size: 16px;
+	line-height: 20px;
+	color: black;
+}
+
+.kaktys3{
+	width: 200px;
+	height: 250px;
+}
+
+.text_kecubung_plants{
+	position: absolute;
+	white-space: nowrap;
+	top: 260px;
+	left: 523px;
+	width: 110px;
+	height: 20px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: black;
+}
+
+.IDR2_85000{
+	position: absolute;
+	top: 280px;
+	left: 540px;
+	width: 91px;
+	height: 20px;
+	font-size: 16px;
+	line-height: 20px;
+	color: black;
+}
+
+.kaktys4{
+	width: 200px;
+	height: 250px;
+}
+
+.text2_kecubung_plants{
+	position: absolute;
+	white-space: nowrap;
+	top: 260px;
+	left: 767px;
+	width: 110px;
+	height: 20px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: black;
+}
+
+.IDR3_85000{
+	position: absolute;
+	top: 280px;
+	left: 782px;
+	width: 91px;
+	height: 20px;
+	font-size: 16px;
+	line-height: 20px;
+	color: black;
+}
+
+.kaktys5{
+	width: 200px;
+	height: 250px;
+}
+
+.text3_kecubung_plants{
+	position: absolute;
+	white-space: nowrap;
+	top: 260px;
+	left: 1007px;
+	width: 110px;
+	height: 20px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: black;
+}
+
+.IDR4_85000{
+	position: absolute;
+	top: 280px;
+	left: 1023px;
+	width: 91px;
+	height: 20px;
+	font-size: 16px;
+	line-height: 20px;
+	color: black;
+}
+
+
+.body2{
+	display: flex;
+	justify-content: space-between;
+	height: 609.9px;
+	width: 1168px;
+	background-color: #fff;
+	margin: auto;
+	margin-bottom: 90px;
+}
+
+.h2_1{
+	width: 522px;
+	height: 112px;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 56px;
+	color: #2C1500;
+}
+
+.lorem3{
+	color: #2C1500;
+	width: 506.69px;
+	height: 140px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	padding-top: 16px;
+}
+
+.photo10{
+	width: 513px;
+}
+
+.div_body2 {
+
+}
+
+.photo_liana{
+	margin-top: 80px;
+}
+
+.body3{
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	width: 1168px;
+	height: 360px;
+	background-color: #F3F4F6;
+	margin-bottom: 90px;
+}
+
+.h2_2{
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 56px;
+	color: #2C1500;
+	padding-top: 88px;
+	padding-left: 97px;
+}
+
+.visit_shop{
+	width: 152px;
+	height: 40px;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 20px;
+	color: #FAFEFE;
+	white-space: nowrap;
+	padding: 10px 42px;
+	background-color: #156963;
+	margin-top: 32px;
+	margin-left: 97px;
+}
+
+.photo_kyst{
+	width: 402px;
+	padding-right: 80px;
+}
+
+.hr2{
+	margin: auto;
+	width: 1280px;
+	background-color: #156963;
+}
+
+.footer{
+	display: flex;
+	justify-content: space-between;
+	background-color: #fff;
+	width: 1280px;
+	height: 268px;
+	margin: auto;
+	padding-top: 90px;
+}
+
+.logo_footer{
+	width: 112px;
+	height: 24px;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 24px;
+	color: #156963;
+
+}
+
+.plantku_house{
+	width: 115px;
+	height: 19px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: #333333;	
+	margin-top: 24px;
+}
+
+.text_footer{
+	width: 282px;
+	height: 60px;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 20px;
+	margin-top: 10px;
+}
+
+.perusahaan{
+	width: 92px;
+	height: 16px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 16px;
+	color: #000000;	
+}
+
+.Tentang_Kami{
+	width: 93px;
+	height: 16px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: black;
+	margin-top: 20px;
+}
+
+.Hubungi_Kami{
+	width: 95px;
+	height: 16px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;	
+	margin-top: 14px;
+}
+
+.Produk{
+	width: 56px;
+	height: 16px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 16px;
+	color: black;
+
+}
+
+.Tanaman{
+	width: 62px;
+	height: 16px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: #000000;
+	margin-top: 20px;
+}
+
+.Tanaman_Lain{
+	width: 95px;
+	height: 16px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: #000000;
+	margin-top: 14px;
+}
+
+.email{
+	width: 199px;
+	height: 16px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 16px;
+}
+
+.left{
+	margin-left: 167px;
+}
+
+.right{
+	margin-right: 167px;
+}
+
+.footer_right_email{
+	margin-top: 14px;
+}
+
+.submit{
+	padding: 4px 12px;
+	border-radius: 2px;
+	background-color: #156963;
+	color: #fff;
+	width: 51px;
+	font-weight: 500;
+	font-size: 8px;
+	line-height: 14px;
+	text-align: center;
+	margin-top: 14px;
+}
