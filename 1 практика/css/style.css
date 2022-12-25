@@ -1,0 +1,29 @@
+body{
+	background-color: #8f8f8f;
+}
+
+div{
+	margin: 0 auto;
+	background-color: #fafc79;
+	width: 500px;
+	
+}
+
+span{
+	color: blue;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+hr{
+	color: #8f8f8f;
+}
+
+.reg{
+	width: 200px;
+	margin: 0 auto;
+	padding: 10px;
+	margin-top: 10px;
+}
